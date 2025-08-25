@@ -1,0 +1,233 @@
+﻿  main.cpp
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,39): error C3312: no callable 'begin' function found for type 'VectorDinamic<Masina>'
+  (compiling source file 'main.cpp')
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,39): error C3312: no callable 'end' function found for type 'VectorDinamic<Masina>'
+  (compiling source file 'main.cpp')
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,30): error C2530: 'masina': references must be initialized
+  (compiling source file 'main.cpp')
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,30): error C3531: 'masina': a symbol whose type contains 'auto' must have an initializer
+  (compiling source file 'main.cpp')
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,37): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'main.cpp')
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,45): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'main.cpp')
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,39): error C2451: a conditional expression of type 'VectorDinamic<Masina>' is not valid
+  (compiling source file 'main.cpp')
+      C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(81,39):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,13): error C2679: binary '=': no operator found which takes a right-hand operand of type 'VectorDinamic<Masina>' (or there is no acceptable conversion)
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1529,26):
+      could be 'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=Masina
+          ]
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Masina
+          ]
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,47):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1508,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>> &'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,47):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,47):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(783,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>> &&'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,47):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,47):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(159,13):
+      while trying to match the argument list '(std::vector<Masina,std::allocator<Masina>>, VectorDinamic<Masina>)'
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,13): error C2679: binary '=': no operator found which takes a right-hand operand of type 'VectorDinamic<Masina>' (or there is no acceptable conversion)
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1529,26):
+      could be 'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=Masina
+          ]
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Masina
+          ]
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,51):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1508,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>> &'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,51):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,51):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(783,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>> &&'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,51):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,51):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(165,13):
+      while trying to match the argument list '(std::vector<Masina,std::allocator<Masina>>, VectorDinamic<Masina>)'
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,13): error C2679: binary '=': no operator found which takes a right-hand operand of type 'VectorDinamic<Masina>' (or there is no acceptable conversion)
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1529,26):
+      could be 'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=Masina
+          ]
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Masina
+          ]
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,45):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1508,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>> &'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,45):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,45):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(783,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>> &&'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,45):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,45):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(194,13):
+      while trying to match the argument list '(std::vector<Masina,std::allocator<Masina>>, VectorDinamic<Masina>)'
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,13): error C2679: binary '=': no operator found which takes a right-hand operand of type 'VectorDinamic<Masina>' (or there is no acceptable conversion)
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1529,26):
+      could be 'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=Masina
+          ]
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::initializer_list<_Ty>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Masina
+          ]
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,49):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1508,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(const std::vector<Masina,std::allocator<Masina>> &)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>> &'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,49):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'const std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,49):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(783,26):
+      or       'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)'
+          C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,13):
+          'std::vector<Masina,std::allocator<Masina>> &std::vector<Masina,std::allocator<Masina>>::operator =(std::vector<Masina,std::allocator<Masina>> &&) noexcept(<expr>)': cannot convert argument 2 from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>> &&'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,49):
+              Reason: cannot convert from 'VectorDinamic<Masina>' to 'std::vector<Masina,std::allocator<Masina>>'
+              C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,49):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\onofr\source\repos\OOP_lab6-7\ui.h(197,13):
+      while trying to match the argument list '(std::vector<Masina,std::allocator<Masina>>, VectorDinamic<Masina>)'
+  
+  Repo.cpp
+C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(104,30): warning C4458: declaration of 'e' hides class member
+  (compiling source file 'Repo.cpp')
+      C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(15,12):
+      see declaration of 'VectorDinamic<Masina>::e'
+      C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(104,30):
+      the template instantiation context (the oldest one first) is
+          C:\Users\onofr\source\repos\OOP_lab6-7\Repo.h(19,27):
+          see reference to class template instantiation 'VectorDinamic<Masina>' being compiled
+          C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(104,10):
+          while compiling class template member function 'void VectorDinamic<Masina>::adaugaSfarsit(TElem)'
+          with
+          [
+              TElem=Masina
+          ]
+              C:\Users\onofr\source\repos\OOP_lab6-7\Repo.cpp(11,25):
+              see the first reference to 'VectorDinamic<Masina>::adaugaSfarsit' in 'Repo::store'
+  
+  Service.cpp
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(23,30): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(23,30): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(34,30): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(34,30): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(39,34): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(39,34): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(51,30): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(51,30): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(56,34): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(56,34): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(133,30): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(133,30): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(142,30): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(142,30): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(104,30): warning C4458: declaration of 'e' hides class member
+  (compiling source file 'Service.cpp')
+      C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(15,12):
+      see declaration of 'VectorDinamic<Masina>::e'
+      C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(104,30):
+      the template instantiation context (the oldest one first) is
+          C:\Users\onofr\source\repos\OOP_lab6-7\Repo.h(19,27):
+          see reference to class template instantiation 'VectorDinamic<Masina>' being compiled
+          C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(104,10):
+          while compiling class template member function 'void VectorDinamic<Masina>::adaugaSfarsit(TElem)'
+          with
+          [
+              TElem=Masina
+          ]
+              C:\Users\onofr\source\repos\OOP_lab6-7\Service.cpp(75,41):
+              see the first reference to 'VectorDinamic<Masina>::adaugaSfarsit' in 'Service::filtrareModel'
+  
+  teste.cpp
+C:\Users\onofr\source\repos\OOP_lab6-7\teste.cpp(161,5): error C2662: 'bool VectorDinamic<Masina>::empty(void)': cannot convert 'this' pointer from 'const VectorDinamic<Masina>' to 'VectorDinamic<Masina> &'
+      C:\Users\onofr\source\repos\OOP_lab6-7\teste.cpp(161,5):
+      Conversion loses qualifiers
+      C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(79,10):
+      see declaration of 'VectorDinamic<Masina>::empty'
+      C:\Users\onofr\source\repos\OOP_lab6-7\teste.cpp(161,5):
+      while trying to match the argument list '()'
+  
+C:\Users\onofr\source\repos\OOP_lab6-7\teste.cpp(277,5): error C2662: 'bool VectorDinamic<Masina>::empty(void)': cannot convert 'this' pointer from 'const VectorDinamic<Masina>' to 'VectorDinamic<Masina> &'
+      C:\Users\onofr\source\repos\OOP_lab6-7\teste.cpp(277,5):
+      Conversion loses qualifiers
+      C:\Users\onofr\source\repos\OOP_lab6-7\VectorDinamic.h(79,10):
+      see declaration of 'VectorDinamic<Masina>::empty'
+      C:\Users\onofr\source\repos\OOP_lab6-7\teste.cpp(277,5):
+      while trying to match the argument list '()'
+  
+  Validator.cpp
+  Generating Code...
