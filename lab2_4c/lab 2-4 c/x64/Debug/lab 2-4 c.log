@@ -1,0 +1,4 @@
+﻿  testeService.c
+D:\oop\lab2_4c\testeService.c(121,2): warning C4013: 'strcmp' undefined; assuming extern returning int
+D:\oop\lab2_4c\testeService.c(179,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+  lab 2-4 c.vcxproj -> D:\oop\lab2_4c\x64\Debug\lab 2-4 c.exe
